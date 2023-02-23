@@ -48,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       onTap: () {
                         WifiUtils.connectToNetwork(
                           ssid: wifiRes[index].ssid,
-                          password: 'Wap@codewv09',
+                          password: 'taars_x10',
                         );
                       },
                       leading: const Icon(Icons.wifi),

@@ -21,7 +21,7 @@ class WifiUtils {
   static void connectToNetwork(
       {required String ssid, required String password}) async {
     try {
-      List<dynamic> results = await _channel.invokeMethod('connectToWifi', {
+      bool results = await _channel.invokeMethod('connectToWifi', {
         "ssid": ssid,
         "password": password,
       });
